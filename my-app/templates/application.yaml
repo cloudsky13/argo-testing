@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd-testing
 spec:
-  project: argo-deployment-marker-testing
+  project: default
   source:
     repoURL: https://github.com/cloudsky13/argo-testing.git
     targetRevision: HEAD
