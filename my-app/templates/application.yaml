@@ -9,8 +9,7 @@ spec:
     repoURL: https://github.com/cloudsky13/argo-testing.git
     targetRevision: HEAD
     revision: main
-    files:
-      - path: templates/
+    path: myapp/templates/
   destination: 
     server: https://kubernetes.default.svc
     namespace: argocd-testing
